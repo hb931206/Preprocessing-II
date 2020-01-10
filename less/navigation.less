@@ -4,19 +4,39 @@
 .fun-bus{
 margin:2% 0% 1% 3%;
 border-bottom: 2px dashed silver;
+@media @mobile{
+    img{
+        width:60%;
+    }
+}
     h2{
         font-size: 3.2rem;
         padding-bottom:1%;
+        
+        
     }
         p{
         font-size: 1.6rem;
+        @media @mobile{
+            text-align: left;
+            font-size:1.2rem;
+        }
+
     }
 }
 // content section
-
+.content-section{
+    @media @mobile{
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 .inverse-content{
     display:flex;
+    @media @mobile{
+        flex-direction: column-reverse;
+    }
     .text-content{
         margin-left:3%;
     }
@@ -26,26 +46,18 @@ border-bottom: 2px dashed silver;
 }
 
 
-    
- 
-
-
- 
-
-
-
-
-
 // Pick your Destination
 
 
 // Destination options
-.destination{
-    display:flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+.content-pick{
+    @media @mobile{
+        display:flex;
+        flex-direction: column;
+    }
+}
     .btn{
         .button(@eastern-blue,white, 50px, 200px);
     }
-}
+
     

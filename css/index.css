@@ -258,6 +258,12 @@ img {
   font-size: 1.6rem;
   padding: 20px;
 }
+@media (max-width:500px) {
+  .footer p {
+    width: 40%;
+    margin-left: 10%;
+  }
+}
 header {
   display: flex;
   justify-content: space-between;

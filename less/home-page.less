@@ -5,18 +5,33 @@ header{
   justify-content: space-between;
   width:900px;
   border-bottom: 2px dashed silver;
+  @media @mobile{
+    flex-direction: column;
+  }
   h1{
     margin-left:3%;
+    @media @mobile{
+      margin: 2% 0% 2% 18%;
+      
+    }
+    
   }
   nav{
     display:flex;
     align-items: center;
     justify-content: center;
    width:400px;
+   @media @mobile{
+     width:500px;
+   }
    
     a{
       margin:0% 7%;
       text-decoration: none;
+      @media @mobile{
+        justify-content: space-evenly;;
+        font-size:1.6rem;
+      }
 
     }
   }

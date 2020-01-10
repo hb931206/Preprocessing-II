@@ -195,7 +195,7 @@ img {
   justify-content: center;
   align-items: center;
   border-radius: 5%;
-  background-color: red;
+  background-color: #17A2B8;
   color: white;
   height: 50px;
   width: 200px;
@@ -217,8 +217,18 @@ header {
   width: 900px;
   border-bottom: 2px dashed silver;
 }
+@media (max-width:500px) {
+  header {
+    flex-direction: column;
+  }
+}
 header h1 {
   margin-left: 3%;
+}
+@media (max-width:500px) {
+  header h1 {
+    margin: 2% 0% 2% 18%;
+  }
 }
 header nav {
   display: flex;
@@ -226,9 +236,20 @@ header nav {
   justify-content: center;
   width: 400px;
 }
+@media (max-width:500px) {
+  header nav {
+    width: 500px;
+  }
+}
 header nav a {
   margin: 0% 7%;
   text-decoration: none;
+}
+@media (max-width:500px) {
+  header nav a {
+    justify-content: space-evenly;
+    font-size: 1.6rem;
+  }
 }
 .home .content-section {
   margin: 30px 0;

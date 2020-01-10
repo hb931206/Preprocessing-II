@@ -135,6 +135,35 @@ header {
 header h1 {
   font-size: 2rem;
 }
+header h1 nav {
+  display: flex;
+  width: 50%;
+}
+header h1 nav a {
+  justify-content: space-evenly;
+  padding: 30%;
+}
+.Fun-bus {
+  border-top: 2px dashed silver;
+  border-bottom: 2px dashed silver;
+}
+.content-section {
+  display: flex;
+  flex-direction: column;
+}
+.inverse-content {
+  display: flex;
+  flex-direction: column;
+}
+.content-destination {
+  border-top: 2px dashed silver;
+  border-bottom: 2px dashed silver;
+}
+.destination {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;

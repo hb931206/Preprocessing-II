@@ -135,6 +135,7 @@ table {
 }
 html {
   font-size: 62.5%;
+  width: 800px;
 }
 html,
 body {
@@ -221,10 +222,13 @@ header {
   width: 800px;
 }
 header nav {
+  display: flex;
   align-items: center;
+  justify-content: center;
+  width: 400px;
 }
 header nav a {
-  justify-content: space-evenly;
+  margin: 0% 7%;
 }
 .home .content-section {
   margin: 30px 0;

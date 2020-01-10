@@ -208,9 +208,21 @@ img {
   margin-left: 3%;
 }
 @media (max-width:500px) {
+  .inverse-content .text-content {
+    margin: 0;
+  }
+}
+@media (max-width:500px) {
+  .content-destination img {
+    width: 60%;
+  }
+}
+@media (max-width:500px) {
   .content-pick {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 80%;
   }
 }
 .btn {
@@ -222,6 +234,18 @@ img {
   color: white;
   height: 50px;
   width: 200px;
+}
+@media (max-width:500px) {
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    background-color: #17A2B8;
+    color: white;
+    height: 50px;
+    width: 350px;
+  }
 }
 .footer {
   width: 100%;
@@ -267,6 +291,8 @@ header nav {
 header nav a {
   margin: 0% 7%;
   text-decoration: none;
+  font-size: 1.4rem;
+  color: black;
 }
 @media (max-width:500px) {
   header nav a {
@@ -307,6 +333,11 @@ header nav a {
   width: 75%;
   margin: 0 auto 30px;
 }
+@media (max-width:500px) {
+  .home .content-destination {
+    margin: 0% 0% 0% 2%;
+  }
+}
 .home .content-destination img {
   border-radius: 10px;
 }
@@ -317,6 +348,5 @@ header nav a {
   justify-content: space-between;
 }
 .home .content-pick .destination {
-  width: 30%;
   margin-bottom: 30px;
 }

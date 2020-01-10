@@ -172,20 +172,9 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-header {
-  display: flex;
-  justify-content: space-between;
-  width: 800px;
-}
-header h1 {
-  font-size: 2rem;
-}
 .fun-bus {
   border-top: 2px dashed silver;
   border-bottom: 2px dashed silver;
-}
-.fun-bus .bus {
-  margin: 5% 0%;
 }
 .fun-bus h2 {
   font-size: 1.5rem;
@@ -205,6 +194,13 @@ header h1 {
   flex-direction: column;
   justify-content: space-evenly;
 }
+.destination .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  color: white;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -215,6 +211,17 @@ header h1 {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+}
+header nav {
+  align-items: center;
+}
+header nav a {
+  justify-content: space-evenly;
 }
 .home .content-section {
   margin: 30px 0;

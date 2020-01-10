@@ -4,10 +4,13 @@
     border-bottom: 2px dashed silver;
 }
 
-.button(@a, @b){
+.button(@a, @b, @c, @d){
     display:flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5%;
     background-color:@a;
     color:@b;
+    height:@c;
+    width:@d;
 }
